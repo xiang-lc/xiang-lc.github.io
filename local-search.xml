@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>统信激活方式</title>
+    <link href="/posts/11814.html"/>
+    <url>/posts/11814.html</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>激活教程</p><ul><li><p>打开激活窗口</p><ul><li><p>开始菜单搜索栏搜索设置–》系统信息<img src="https://api2.mubu.com/v3/document_image/4af160b2-1bae-446f-b90b-5230406c8b13-4244072.jpg" alt="img"></p></li><li><p>系统信息–》版本授权：激活<img src="https://api2.mubu.com/v3/document_image/c893f9e9-e679-4f19-b264-30e6f4a7a2ab-4244072.jpg" alt="img"></p></li><li><p><img src="https://api2.mubu.com/v3/document_image/027a96a4-6776-4e67-ac5e-37cbda5ee943-4244072.jpg" alt="img"></p></li></ul></li><li><p>在线激活</p><ul><li><p>直接点击输入序列号<img src="https://api2.mubu.com/v3/document_image/198b5105-67de-419f-b9ac-187c0b702f16-4244072.jpg" alt="img"></p></li><li><p>输入正版的授权序列号点击激活<img src="https://api2.mubu.com/v3/document_image/119006d7-ec47-477b-947f-b583759aa693-4244072.jpg" alt="img"></p></li></ul></li><li><p>离线激活</p><ul><li><p>直接点击输入序列号<img src="https://api2.mubu.com/v3/document_image/e5a9737b-63f1-464d-92d8-db2c4c87103c-4244072.jpg" alt="img"></p></li><li><p>输入正版的授权序列号点击激活<img src="https://api2.mubu.com/v3/document_image/0dfbeeb8-0671-42c8-a952-6ea80697efcd-4244072.jpg" alt="img"></p></li><li><p>使用手机微信扫描二维码，输入手机返回的激活码点击登录<img src="https://api2.mubu.com/v3/document_image/affe25e0-6852-4858-a28c-7c874518528e-4244072.jpg" alt="img"></p></li></ul></li><li><p>命令行激活</p><ul><li><p>打开终端输入uos-activator-cmd -a  XXXXX序列号<img src="https://api2.mubu.com/v3/document_image/5ecbb209-f7df-48c8-a8b6-3a6e6ed9d5f9-4244072.jpg" alt="img"></p></li><li><p>然后使用手机微信扫描二维码，获取离线激活码,输入然后回车<img src="https://api2.mubu.com/v3/document_image/3d682143-ac00-49ac-a096-5654b741d9bb-4244072.jpg" alt="img"></p></li></ul></li></ul></li><li><p>常见问题</p><ul><li><p>出现激活序列号无效、激活失败。</p><ul><li><p>打开终端<br>1、Ctrl + Alt +T 可以调用出终端界面<br>2、左下角开始菜单搜索栏中搜索终端<br>3、鼠标右键桌面，点击下终端打开<br>​</p></li><li><p>输入 :ls &#x2F;etc&#x2F;oem-version   (注意：ls 后面是有一个空格）</p></li><li><p>提示没有那个文件或目录，则需要申请open序列号<img src="https://api2.mubu.com/v3/document_image/27e41f15-e40e-4fd7-9899-0569534ccf57-4244072.jpg" alt="img"></p></li><li><p>如果文件存在，则需要申请oem序列号。</p></li><li><p>申请Open的序列号，无法激活OEM模式的系统。</p></li><li><p>可以使用这个网址检查自己的激活序列号是什么类型的：<a href="http://license.chinauos.com/#/check">license.chinauos.com&#x2F;#&#x2F;check</a><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/382157e8-7614-47e2-8bd0-d6534a0cc301-4244072.jpg" alt="img"><br>授权模式：（就是Open码或者Oem码)</p></li></ul></li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>统信</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>统信 UOS 激活</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>统信命令</title>
+    <link href="/posts/40142.html"/>
+    <url>/posts/40142.html</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>查看系统版本</p><ul><li><p>命令查询：<br>cat &#x2F;etc&#x2F;os-version（使用终端输入）</p></li><li><p>图形界面查询：<br>设置–》控制中心–》系统信息</p></li></ul></li><li><p>查看商店源命令</p><ul><li>终端输入：<br>cat &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;appstore.list</li></ul></li><li><p>查看系统激活状态</p><ul><li>终端输入：<br>uos-activator-cmd -q<br>​</li></ul></li><li><p>激活系统命令：</p><ul><li>uos-activator-cmd -a  XXXXX序列号<br>使用序列号命令行激活统信，其余使用uos-activator-cmd –help</li></ul></li><li><p>下载安装软件安装包</p><ul><li><p>使用终端下载</p><ul><li><p>apt search 【软件名】<br>使用这个命令搜索想对应的安装包名称</p></li><li><p>apt-get download 【包名】<br>​使用这个命令可以将软件的安装包下载下来，一般默认的下载路径是主目录</p></li><li><p>apt –help<br>查看是其他命令的使用方法，可以在线查看</p></li></ul></li></ul></li><li><p>安装软件</p><ul><li><p>使用应用商店安装软件<br>打开应用商店搜索软件名称，点击下载</p></li><li><p>使用终端在线安装</p><ul><li><p>apt-get install 【包名】<br>可以在线安装软件</p></li><li><p>apt-get reinstall 【包名】<br>可以重新安装软件，在线安装</p></li><li></li></ul></li><li><p>使用终端离线安装</p><ul><li>sudo dpkg -i 【包名】<br>使用dpkg命令安装软件包，sudo是给他权限，如果提示没有权限，使用Open-root,或者使用 debug-shell 安装</li></ul></li></ul></li><li><p>清理软件缓存</p><ul><li>可执行如下两条命令清理缓存：<br>rm -rf ~&#x2F;.local&#x2F;share&#x2F;Kingsoft<br>rm -rf ~&#x2F;.config&#x2F;Kingsoft<br>这里的～后面都为软件的缓存路径</li></ul></li><li><p>卸载组件</p><ul><li>apt purge [组件名称]<br>卸载组件</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>统信</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>统信 UOS　命令</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>uos常见的组件故障</title>
+    <link href="/posts/51393.html"/>
+    <url>/posts/51393.html</url>
+    
+    <content type="html"><![CDATA[<p>- </p><ul><li><p>组件缺失</p><ul><li>sudo apt   -y install 组件软件包名</li></ul></li><li><p>组件异常</p><ul><li>sudo apt   -y  reinstall  组件软件包名</li></ul></li><li><p>组件软件包名</p><ul><li><p>打印机管理器<br>   cups</p></li><li><p>控制中心<br>   dde-control-center</p></li><li><p>文件管理器<br>   dde-file-manager</p></li><li><p>窗口管理器<br>   dde-kwin</p></li><li><p>桌面<br>dde-desktop</p></li><li><p>任务栏<br> dde-dock</p></li><li><p>启动器<br>   dde-launcher</p></li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>统信</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>统信 UOS　故障</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我的第一篇文章</title>
+    <link href="/posts/62824.html"/>
+    <url>/posts/62824.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="hexo-安装部署的详细教程"><a href="#hexo-安装部署的详细教程" class="headerlink" title="hexo 安装部署的详细教程"></a>hexo 安装部署的详细教程</h2><p>现在是测试内容区域</p><p><a href="https://blog.csdn.net/weixin_49175501/article/details/128705141">这个是上传之后GitHub出现重置的问题</a></p><p><a href="https://blog.csdn.net/victoryxa/article/details/103733655?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-103733655-blog-130248518.235%5Ev38%5Epc_relevant_anti_t3_base&amp;spm=1001.2101.3001.4242.2&amp;utm_relevant_index=4">这个是hexo部署的详细教程</a></p><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/one.png" alt="one"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/posts/16107.html"/>
+    <url>/posts/16107.html</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>测试</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
