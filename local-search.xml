@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>统信共享</title>
+    <link href="/posts/23484.html"/>
+    <url>/posts/23484.html</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>window作为共享主机</p><ul><li><p>uos访问Windows</p><ul><li><p>访问方式：</p><ul><li>地址栏输入：smb:&#x2F;&#x2F;IP地址&#x2F;具体的共享文件夹</li></ul></li><li><p>错误问题：</p></li><li><p>无法挂载设备</p><ul><li>访问方式输入的smb格式不对，不能直接输入IP地址</li></ul></li></ul></li><li><p>Windows访问window</p><ul><li><p>win+R 输入：\IP地址</p></li><li><p>资源管理器地址栏输入：\IP地址</p></li></ul></li></ul></li><li><p>统信UOS共享密码忘记，或者更改了</p><ul><li><p>清除密码的临时方法：</p></li><li><p>方法一：计算机–主目录–Ctrl+H—&#x2F;.local&#x2F;share&#x2F;keyrings&#x2F; 下文件， 系统其他软件记住的密码也可能失效</p></li><li><p>方法二：在控制中心-&gt;账户 中，打开当前用户的无密码登录</p></li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>统信</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>统信 共享 UOS</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>统信激活方式</title>
     <link href="/posts/11814.html"/>
     <url>/posts/11814.html</url>
@@ -45,7 +70,7 @@
     
     <tags>
       
-      <tag>统信 UOS　命令</tag>
+      <tag>统信 UOS 命令</tag>
       
     </tags>
     
@@ -70,7 +95,7 @@
     
     <tags>
       
-      <tag>统信 UOS　故障</tag>
+      <tag>统信 UOS 故障</tag>
       
     </tags>
     
