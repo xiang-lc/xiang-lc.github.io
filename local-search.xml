@@ -4,79 +4,23 @@
   
   
   <entry>
-    <title>统信共享</title>
-    <link href="/posts/23484.html"/>
-    <url>/posts/23484.html</url>
+    <title>Hello World</title>
+    <link href="/posts/16107.html"/>
+    <url>/posts/16107.html</url>
     
-    <content type="html"><![CDATA[<ul><li><p>window作为共享主机</p><ul><li><p>uos访问Windows</p><ul><li><p>访问方式：</p><ul><li>地址栏输入：smb:&#x2F;&#x2F;IP地址&#x2F;具体的共享文件夹</li></ul></li><li><p>错误问题：</p></li><li><p>无法挂载设备</p><ul><li>访问方式输入的smb格式不对，不能直接输入IP地址</li></ul></li></ul></li><li><p>Windows访问window</p><ul><li><p>win+R 输入：\IP地址</p></li><li><p>资源管理器地址栏输入：\IP地址</p></li></ul></li></ul></li><li><p>统信UOS共享密码忘记，或者更改了</p><ul><li><p>清除密码的临时方法：</p></li><li><p>方法一：计算机–主目录–Ctrl+H—&#x2F;.local&#x2F;share&#x2F;keyrings&#x2F; 下文件， 系统其他软件记住的密码也可能失效</p></li><li><p>方法二：在控制中心-&gt;账户 中，打开当前用户的无密码登录</p></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
     <categories>
       
-      <category>教程</category>
-      
-      <category>统信</category>
+      <category>测试</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>共享</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>统信激活方式</title>
-    <link href="/posts/11814.html"/>
-    <url>/posts/11814.html</url>
-    
-    <content type="html"><![CDATA[<ul><li><p>激活教程</p><ul><li><p>打开激活窗口</p><ul><li><p>开始菜单搜索栏搜索设置–》系统信息<img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162210567.jpg"></p></li><li><p>系统信息–》版本授权：激活</p></li><li><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162211362.jpg"></p></li></ul></li><li><p>在线激活</p><ul><li><p>直接点击输入序列号<img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162211139.jpg"></p></li><li><p>输入正版的授权序列号点击激活</p></li><li><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162211467.jpg"></p></li></ul></li><li><p>离线激活</p><ul><li><p>直接点击输入序列号</p></li><li><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162212542.jpg"></p></li><li><p>输入正版的授权序列号点击激活</p></li><li><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162212588.jpg"></p></li><li><p>使用手机微信扫描二维码，输入手机返回的激活码点击登录</p></li><li><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162212263.jpg"></p></li></ul></li><li><p>命令行激活</p><ul><li><p>打开终端输入uos-activator-cmd -a  XXXXX序列号</p></li><li><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162213771.jpg" alt="202310162213771.jpg"></p></li><li><p>然后使用手机微信扫描二维码，获取离线激活码,输入然后回车</p></li><li><p><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162213935.jpg" alt="202310162213935.jpg"></p></li></ul></li></ul></li><li><p>常见问题</p><ul><li><p>出现激活序列号无效、激活失败。</p><ul><li>打开终端<br>1、Ctrl + Alt +T 可以调用出终端界面<br>2、左下角开始菜单搜索栏中搜索终端<br>3、鼠标右键桌面，点击下终端打开<br>​</li><li>输入 :ls &#x2F;etc&#x2F;oem-version   (注意：ls 后面是有一个空格）</li><li><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162213262.jpg"></li><li>提示没有那个文件或目录，则需要申请open序列号</li><li>如果文件存在，则需要申请oem序列号。</li><li>申请Open的序列号，无法激活OEM模式的系统。</li><li>可以使用这个网址检查自己的激活序列号是什么类型的：<a href="http://license.chinauos.com/#/check">license.chinauos.com&#x2F;#&#x2F;check</a></li><li><img src="https://cdn.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162214311.jpg" alt="202310162214311.jpg"></li><li>授权模式：（就是Open码或者Oem码)</li></ul></li></ul></li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>教程</category>
-      
-      <category>统信</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>激活</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>统信命令</title>
-    <link href="/posts/40142.html"/>
-    <url>/posts/40142.html</url>
-    
-    <content type="html"><![CDATA[<ul><li><p>查看系统版本</p><ul><li><p>命令查询：<br>cat &#x2F;etc&#x2F;os-version（使用终端输入）</p></li><li><p>图形界面查询：<br>设置–》控制中心–》系统信息</p></li></ul></li><li><p>查看商店源命令</p><ul><li>终端输入：<br>cat &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;appstore.list</li></ul></li><li><p>查看系统激活状态</p><ul><li>终端输入：<br>uos-activator-cmd -q<br>​</li></ul></li><li><p>激活系统命令：</p><ul><li>uos-activator-cmd -a  XXXXX序列号<br>使用序列号命令行激活统信，其余使用uos-activator-cmd –help</li></ul></li><li><p>下载安装软件安装包</p><ul><li><p>使用终端下载</p><ul><li><p>apt search 【软件名】<br>使用这个命令搜索想对应的安装包名称</p></li><li><p>apt-get download 【包名】<br>​使用这个命令可以将软件的安装包下载下来，一般默认的下载路径是主目录</p></li><li><p>apt –help<br>查看是其他命令的使用方法，可以在线查看</p></li></ul></li></ul></li><li><p>安装软件</p><ul><li><p>使用应用商店安装软件<br>打开应用商店搜索软件名称，点击下载</p></li><li><p>使用终端在线安装</p><ul><li><p>apt-get install 【包名】<br>可以在线安装软件</p></li><li><p>apt-get reinstall 【包名】<br>可以重新安装软件，在线安装</p></li><li></li></ul></li><li><p>使用终端离线安装</p><ul><li>sudo dpkg -i 【包名】<br>使用dpkg命令安装软件包，sudo是给他权限，如果提示没有权限，使用Open-root,或者使用 debug-shell 安装</li></ul></li></ul></li><li><p>清理软件缓存</p><ul><li>可执行如下两条命令清理缓存：<br>rm -rf ~&#x2F;.local&#x2F;share&#x2F;Kingsoft<br>rm -rf ~&#x2F;.config&#x2F;Kingsoft<br>这里的～后面都为软件的缓存路径</li></ul></li><li><p>卸载组件</p><ul><li>apt purge [组件名称]<br>卸载组件</li></ul></li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>教程</category>
-      
-      <category>统信</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>命令</tag>
+      <tag>测试</tag>
       
     </tags>
     
@@ -125,23 +69,79 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/posts/16107.html"/>
-    <url>/posts/16107.html</url>
+    <title>统信共享</title>
+    <link href="/posts/23484.html"/>
+    <url>/posts/23484.html</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<ul><li><p>window作为共享主机</p><ul><li><p>uos访问Windows</p><ul><li><p>访问方式：</p><ul><li>地址栏输入：smb:&#x2F;&#x2F;IP地址&#x2F;具体的共享文件夹</li></ul></li><li><p>错误问题：</p></li><li><p>无法挂载设备</p><ul><li>访问方式输入的smb格式不对，不能直接输入IP地址</li></ul></li></ul></li><li><p>Windows访问window</p><ul><li><p>win+R 输入：\IP地址</p></li><li><p>资源管理器地址栏输入：\IP地址</p></li></ul></li></ul></li><li><p>统信UOS共享密码忘记，或者更改了</p><ul><li><p>清除密码的临时方法：</p></li><li><p>方法一：计算机–主目录–Ctrl+H—&#x2F;.local&#x2F;share&#x2F;keyrings&#x2F; 下文件， 系统其他软件记住的密码也可能失效</p></li><li><p>方法二：在控制中心-&gt;账户 中，打开当前用户的无密码登录</p></li></ul></li></ul>]]></content>
     
     
     <categories>
       
-      <category>测试</category>
+      <category>教程</category>
+      
+      <category>统信</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>测试</tag>
+      <tag>共享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>统信激活方式</title>
+    <link href="/posts/11814.html"/>
+    <url>/posts/11814.html</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>激活教程</p><ul><li><p>打开激活窗口</p><ul><li><p>开始菜单搜索栏搜索设置–》系统信息<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162210567.jpg"></p></li><li><p>系统信息–》版本授权：激活</p></li><li><p><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162211362.jpg"></p></li></ul></li><li><p>在线激活</p><ul><li><p>直接点击输入序列号<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162211139.jpg"></p></li><li><p>输入正版的授权序列号点击激活</p></li><li><p><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162211467.jpg"></p></li></ul></li><li><p>离线激活</p><ul><li><p>直接点击输入序列号</p></li><li><p><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162212542.jpg"></p></li><li><p>输入正版的授权序列号点击激活</p></li><li><p><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162212588.jpg"></p></li><li><p>使用手机微信扫描二维码，输入手机返回的激活码点击登录</p></li><li><p><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162212263.jpg"></p></li></ul></li><li><p>命令行激活</p><ul><li><p>打开终端输入uos-activator-cmd -a  XXXXX序列号</p></li><li><p><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162213771.jpg" alt="202310162213771.jpg"></p></li><li><p>然后使用手机微信扫描二维码，获取离线激活码,输入然后回车</p></li><li><p><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162213935.jpg" alt="202310162213935.jpg"></p></li></ul></li></ul></li><li><p>常见问题</p><ul><li><p>出现激活序列号无效、激活失败。</p><ul><li>打开终端<br>1、Ctrl + Alt +T 可以调用出终端界面<br>2、左下角开始菜单搜索栏中搜索终端<br>3、鼠标右键桌面，点击下终端打开<br>​</li><li>输入 :ls &#x2F;etc&#x2F;oem-version   (注意：ls 后面是有一个空格）</li><li><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162213262.jpg"></li><li>提示没有那个文件或目录，则需要申请open序列号</li><li>如果文件存在，则需要申请oem序列号。</li><li>申请Open的序列号，无法激活OEM模式的系统。</li><li>可以使用这个网址检查自己的激活序列号是什么类型的：<a href="http://license.chinauos.com/#/check">license.chinauos.com&#x2F;#&#x2F;check</a></li><li><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202310162214311.jpg" alt="202310162214311.jpg"></li><li>授权模式：（就是Open码或者Oem码)</li></ul></li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+      <category>统信</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>激活</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>统信命令</title>
+    <link href="/posts/40142.html"/>
+    <url>/posts/40142.html</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>查看系统版本</p><ul><li><p>命令查询：<br>cat &#x2F;etc&#x2F;os-version（使用终端输入）</p></li><li><p>图形界面查询：<br>设置–》控制中心–》系统信息</p></li></ul></li><li><p>查看商店源命令</p><ul><li>终端输入：<br>cat &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;appstore.list</li></ul></li><li><p>查看系统激活状态</p><ul><li>终端输入：<br>uos-activator-cmd -q<br>​</li></ul></li><li><p>激活系统命令：</p><ul><li>uos-activator-cmd -a  XXXXX序列号<br>使用序列号命令行激活统信，其余使用uos-activator-cmd –help</li></ul></li><li><p>下载安装软件安装包</p><ul><li><p>使用终端下载</p><ul><li><p>apt search 【软件名】<br>使用这个命令搜索想对应的安装包名称</p></li><li><p>apt-get download 【包名】<br>​使用这个命令可以将软件的安装包下载下来，一般默认的下载路径是主目录</p></li><li><p>apt –help<br>查看是其他命令的使用方法，可以在线查看</p></li></ul></li></ul></li><li><p>安装软件</p><ul><li><p>使用应用商店安装软件<br>打开应用商店搜索软件名称，点击下载</p></li><li><p>使用终端在线安装</p><ul><li><p>apt-get install 【包名】<br>可以在线安装软件</p></li><li><p>apt-get reinstall 【包名】<br>可以重新安装软件，在线安装</p></li><li></li></ul></li><li><p>使用终端离线安装</p><ul><li>sudo dpkg -i 【包名】<br>使用dpkg命令安装软件包，sudo是给他权限，如果提示没有权限，使用Open-root,或者使用 debug-shell 安装</li></ul></li></ul></li><li><p>清理软件缓存</p><ul><li>可执行如下两条命令清理缓存：<br>rm -rf ~&#x2F;.local&#x2F;share&#x2F;Kingsoft<br>rm -rf ~&#x2F;.config&#x2F;Kingsoft<br>这里的～后面都为软件的缓存路径</li></ul></li><li><p>卸载组件</p><ul><li>apt purge [组件名称]<br>卸载组件</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+      <category>统信</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>命令</tag>
       
     </tags>
     
