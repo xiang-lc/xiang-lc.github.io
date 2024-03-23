@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>IP登记工具-使用教程</title>
+    <link href="/posts/32127.html"/>
+    <url>/posts/32127.html</url>
+    
+    <content type="html"><![CDATA[<hr><h4 id="准备工作："><a href="#准备工作：" class="headerlink" title="准备工作："></a>准备工作：</h4><p>​一，安装数据库mysql（可以使用一些快捷数据库工具，例如phpstudy），并运行数据库</p><p>​二，下载软件压缩包</p><hr><h4 id="第一步："><a href="#第一步：" class="headerlink" title="第一步："></a>第一步：</h4><p>​将压缩文件解压出来，会得到三个文件，分别是<strong>config.ini</strong>、IP</p><p>登记-服务端.exe、<strong>IP登记-客户端.exe</strong></p><p>​</p><h4 id="第二步："><a href="#第二步：" class="headerlink" title="第二步："></a>第二步：</h4><p>​编辑config.ini文件，将其中的<strong>host</strong>，<strong>user</strong>，<strong>port</strong>，password，修改为自己的参数；</p><p>​如果使用phpstudy，默认密码是<strong>root</strong>，账户也是<strong>root</strong>，host就是<strong>你这台安装数据库的IP地址</strong>，端口默认是<strong>3306</strong>.</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202403231052525.png" alt="image-20240323105234479"></p><h4 id="第三步："><a href="#第三步：" class="headerlink" title="第三步："></a>第三步：</h4><p>​在服务端运行服务端程序，双击打开服务端程序</p><p>​点击<strong>初始化</strong>。</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202403231052010.png" alt="image-20240323105250986"></p><h5 id="第四步："><a href="#第四步：" class="headerlink" title="第四步："></a>第四步：</h5><p>​将<strong>config.ini、IP登记-客户端.exe</strong>发送给需要登记的主机上。直接双击使用，填写名称与办公地址点击<strong>上传</strong></p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202403231054786.png" alt="image-20240323105402762"></p><h5 id="第五步："><a href="#第五步：" class="headerlink" title="第五步："></a>第五步：</h5><p>​回到服务端，点击<strong>导出</strong>按钮就可以导出一个excel表</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202403231053412.png" alt="image-20240323105250986"></p><hr><h4 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h4><p>​IP登记工具：<a href="https://wwd.lanzouo.com/i2p1d1sas9ah">https://wwd.lanzouo.com/i2p1d1sas9ah</a></p><hr><h4 id="视频教程："><a href="#视频教程：" class="headerlink" title="视频教程："></a>视频教程：</h4><p>​</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+      <category>工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/posts/16107.html"/>
     <url>/posts/16107.html</url>
@@ -74,6 +101,33 @@
     <url>/posts/23484.html</url>
     
     <content type="html"><![CDATA[<ul><li><p>window作为共享主机</p><ul><li><p>uos访问Windows</p><ul><li><p>访问方式：</p><ul><li>地址栏输入：smb:&#x2F;&#x2F;IP地址&#x2F;具体的共享文件夹</li></ul></li><li><p>错误问题：</p></li><li><p>无法挂载设备</p><ul><li>访问方式输入的smb格式不对，不能直接输入IP地址</li></ul></li></ul></li><li><p>Windows访问window</p><ul><li><p>win+R 输入：\IP地址</p></li><li><p>资源管理器地址栏输入：\IP地址</p></li></ul></li></ul></li><li><p>统信UOS共享密码忘记，或者更改了</p><ul><li><p>清除密码的临时方法：</p></li><li><p>方法一：计算机–主目录–Ctrl+H—&#x2F;.local&#x2F;share&#x2F;keyrings&#x2F; 下文件， 系统其他软件记住的密码也可能失效</p></li><li><p>方法二：在控制中心-&gt;账户 中，打开当前用户的无密码登录</p></li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+      <category>统信</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>共享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>测试同步</title>
+    <link href="/posts/23484.html"/>
+    <url>/posts/23484.html</url>
+    
+    <content type="html"><![CDATA[<p>测试同步功能</p>]]></content>
     
     
     <categories>
