@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>免费多端同步Markdown编辑器</title>
+    <link href="/posts/33722.html"/>
+    <url>/posts/33722.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​Markdown编辑，编辑一些后缀为md文件，而有些编辑器还是要收费的。现在记录一个Markdown的编辑器——obsidian。这一个软件有多个版本。支持pc端，安卓端，mac端，ipad端，iPhone端等等多个版本。同时搭配webdav网盘。可以实现多端同步功能。简直不是太好用。</p><p>​接下来就记录下安装过程！！！</p><hr><h4 id="准备工作："><a href="#准备工作：" class="headerlink" title="准备工作："></a>准备工作：</h4><p>​wedav网盘</p><p>​安装软件obsidian</p><p>​安装插件（需要梯子）</p><hr><h4 id="第一步："><a href="#第一步：" class="headerlink" title="第一步："></a>第一步：</h4><p>​创建wedav网盘。</p><p>​像国内的坚果云，免费用户每月一个G的上传流量；</p><p>​国外的<a href="https://infini-cloud.net/en/index.html">https://infini-cloud.net/en/index.html</a> （可以填写邀请码：QANXA ；免费获取5GB空间。加在一起就有25GB的免费空间。用来上传一些文件都已经够用。）</p><p>​以<strong>infini-cloud</strong>为例，打开链接</p><p>​创建用户，填写用户名</p><p>​在页面的上方有个<strong>Create Account</strong></p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082136961.png" alt="image-20240408213650832"></p><p>​点击它，就会跳转到创建用户的界面</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082136743.png" alt="image-20240408213623657"></p><p>​按需填写<strong>邮箱</strong>，用户id，名字的话可以随便</p><p>​<strong>勾选上协议</strong></p><p>​然后<strong>next</strong></p><p>​之后会发送一个验证码到你的邮箱。<strong>验证码有点长。</strong></p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082140983.png" alt="image-20240408214014965"></p><p>​将验证码复制到之前的界面。下一步即可</p><p>​然后回到<a href="https://infini-cloud.net/en/index.html">https://infini-cloud.net/en/index.html</a> 首页，点击<strong>login</strong></p><p>​输入用户id，密码，登录进去，点击<strong>Mypage</strong></p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082142307.png" alt="image-20240408214218265"></p><p>​将页面划到 Apps Connection</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082143109.png" alt="image-20240408214307082"></p><p>​记住<strong>URL</strong>，<strong>Connection ID</strong> ，<strong>Apps Password</strong>（一开始不会显示，要点击橙色的按钮Reissue，就会在下方出现一个多为的密码）这个密码一点要记住！记住！记住！</p><p>​到了这里webdav网盘的设置就已经完成了。</p><hr><h3 id="第二步："><a href="#第二步：" class="headerlink" title="第二步："></a>第二步：</h3><p>​下载安装Obsidian客户端</p><p>​官网：<a href="https://obsidian.md/">https://obsidian.md/</a></p><p>​选择<strong>Download</strong></p><p>​选择window版，下载之后，直接双击安装，安装完成之后，会在桌面上有一个紫色的图标，名字是Obsidian</p><p>​双击打开它，出现一个黑色的界面</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082151394.png" alt="image-20240408215115357"></p><p>​英文看不懂？看到那个English，选择中文简体。就可以切换成中文了</p><p>​第一个是创建仓库。（就是你要存放文件的路径）</p><p>​点击创建(名字随便想哈)</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082153458.png" alt="image-20240408215337418"></p><p>​我们的视角移动到左下角。点击设置</p><p>​选择第三方插件。将安全模式关闭</p><p>​然后浏览社区插件市场（如果出现无法连接插件市场，就爬个梯子，然后再点击）</p><p>​搜索Remotely Save</p><p>​安装启用它</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082156262.png" alt="image-20240408215657217"></p><p>​点击插件的设置。</p><p>​将远程服务选到webdav</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082157593.png" alt="image-20240408215754545"></p><p>​将第一步的记录下来的用户id，url，app密码。依次填写</p><p>​然后下面的设置按需设置</p><p>​至此，配置完成。</p><p>​以后编写完成之后点击下同步即可。之后就会再我们的网盘中出现了</p><p>​<img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082200876.png" alt="image-20240408220020835"></p><p>​<strong>手机端</strong>也是相同的设置webdav，唯一不同的就是<strong>修改远端基文件夹（实验性质）输入框的内容要跟pc端一致</strong><img src="https://gcore.jsdelivr.net/gh/xiang-lc/M-PIC@webimg/img/202404082202443.png" alt="image-20240408220148409"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>IP登记工具-使用教程</title>
     <link href="/posts/32127.html"/>
     <url>/posts/32127.html</url>
